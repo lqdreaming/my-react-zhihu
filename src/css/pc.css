@@ -1,0 +1,423 @@
+
+#PCIndex{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.menuItem{
+	font-size: 16px;
+}
+
+.menuItem a:link{
+	color: rgb(25,137,200);
+}
+
+.logo{
+	align-items: center;
+	display: flex;
+	padding-top: 10px;
+}
+
+.logo img{
+	width: 30px;
+	height: 30px;
+}
+
+.logo span{
+	font-size: 18px;
+	padding-left: 5px;
+}
+
+.footer{
+	text-align: center;
+}
+
+#PCMiddle .ant-carousel .slick-slide{
+  text-align: center;
+  height: 500px;
+  line-height: 500px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+#PCMiddle .ant-carousel .slick-slide h3{
+	display: inline-block;
+	width: 500px;
+	font-size:20px; 
+	padding-top: 200px;
+  	color: #fff;
+}
+
+#PCMiddle section .dailyNews{
+	width: 800px;
+	margin-top: 10px;
+}
+
+#PCMiddle section .dailyNews h2{
+	font-size: 18px;
+	color: red;
+	margin: 8px 0;
+}
+
+#PCMiddle section .dailyNews nav li{
+	display: inline-block;
+	width: 255px;
+	height: 320px;
+	margin-left: 5px;
+	margin-top: 10px;
+	list-style-type: none;
+	border: 1px solid  #C0C0C0;
+	border-radius: 8px;
+	box-shadow: 0px 0px 8px #808080;
+}
+
+#PCMiddle section .dailyNews nav li p{
+	width: 95%;
+	margin-top: 5px;
+}
+
+#PCMiddle section .dailyNews nav li p a{
+	display: inline-block;
+	font-size: 16px;
+	color: black;
+	width: 250px;
+	height: 75px;
+	text-align: center;
+    overflow: hidden;
+}
+
+#PCMiddle section .dailyNews nav li div{
+	padding-right: 3px;
+	padding-top: 20px;
+}
+
+#PCMiddle section .dailyNews nav li div img{
+	display: inline-block;
+	width: 230px;
+	padding-left: 20px;
+}
+
+#PCMiddle .example{
+	display: inline-block;
+	width: 95%;
+	height: 30px;
+	margin: 15px 0px;
+  	text-align: center;
+  	line-height: 45px;
+  	margin-top: -8px;
+}
+
+#PCMiddle .example span{
+	display: inline-block;
+	margin-left: 12px;
+	font-size: 14px;
+}
+
+#PCLoad{
+	width: 800px;
+	margin: 0 auto;
+}
+
+#PCLoad .ant-col-4{
+	font-size: 18px;
+	color: rgb(25,137,200);
+	padding-top: 10px;
+}
+
+#PCLoad .PCLoadMiddle{
+	height: 443px;
+	margin: 0 auto;
+	background: rgb(25,137,200);
+	margin-top: 8px;
+	position: relative;
+}
+
+#PCLoad .PCLoadMiddle .phoneImage{
+	width: 400px;
+	margin: 5px 20px 0 20px;
+}
+
+#PCLoad .PCLoadMiddle .PCLoadContent{
+	display: inline-block;
+	width: 350px;
+	height: 438px;
+	position: absolute;
+	left: 450px;
+	top: 140px;
+}
+
+#PCLoad .PCLoadMiddle .PCLoadContent h1,p{
+	color: #fff;
+}
+
+#PCLoad .PCLoadMiddle .PCLoadContent p{
+	font-size: 14px;
+	margin-top: 10px;
+	opacity: 0.7;
+}
+
+#PCLoad .PCLoadMiddle .PCLoadContent_bottom{
+	height: 200px;
+}
+
+#PCLoad .PCLoadMiddle .PCLoadContent_bottom .PCLoad_left{
+	display: inline-block;
+	width: 140px;
+	background-color: #fff;
+}
+
+#PCLoad .PCLoadMiddle .PCLoadContent_bottom .PCLoad_left img{
+	display: inline-block;
+	padding: 5px 0 0 2px;
+	position: absolute;
+	left: 0px;
+	top: 120px;
+}
+
+#PCLoad .PCLoadMiddle .PCLoadContent_bottom .PCLoad_right{
+	display: inline-block;
+	width: 150px;
+	margin: 34px 0px 0px 20px;
+	vertical-align: middle;
+}
+
+#PCLoad .PCLoadMiddle .PCLoadContent_bottom .PCLoad_right img{
+	display: inline-block;
+	width: 50px;
+	padding-top: 5px;
+}
+
+#PCLoad .PCLoadMiddle .PCLoadContent_bottom .PCLoad_right li{
+	display: inline-block;
+	width: 180px;
+	height: 60px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+#PCLoad .PCLoadMiddle .PCLoadContent_bottom .PCLoad_right li span{
+	display: inline-block;
+	font-size: 24px;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+#PCLoad .PCLoadMiddle .PCLoadContent_bottom .PCLoad_right nav{
+	display: inline-block;
+	list-style-type: none;
+	width: 180px;
+	height: 100%;
+	margin-top: 20px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+#PCLoad .PCLoadMiddle .PCLoadContent_bottom li:hover{
+	background: #AFEEEE;
+}
+
+#PCLoad .PCLoadMiddle .PCLoadContent_bottom .PCLoad_right nav span{
+	display: inline-block;
+	font-size: 24px;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-left: 15px;
+	color: black;
+}
+
+#PCLoad .PCLoadMiddle .PCLoadContent_bottom a{
+	color: black;
+}
+
+#PCDetail{
+	width: 800px;
+	margin: 0 auto;
+}
+
+#PCDetail .ant-row{
+	margin-bottom: 5px;
+}
+
+#PCDetail .ant-col-4{
+	font-size: 18px;
+	color: rgb(25,137,200);
+	padding-top: 15px;
+}
+
+#PCDetail #mobileheader header{
+	background-color: #808080;
+}
+
+#PCDetail #mobileheader header .comment{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+#PCDetail #mobileheader header .comment span{
+	display: inline-block;
+	margin-left: 5px;
+	padding-top: 5px;
+	font-size: 26x;
+	color: #fff;
+}
+
+#PCDetail #mobileheader header img{
+	display: inline-block;
+	height: 50px;
+	vertical-align: middle;
+}
+
+#PCDetail #mobileheader header #share{
+	display: inline-block;
+	color: black;
+}
+
+#PCDetail #mobileheader header #star{
+	display: inline-block;
+	height: 50px;
+	margin-left: 15px;
+}
+
+#PCDetail #mobileheader header #commentInf{
+	display: inline-block;
+}
+
+#PCDetail #mobileheader header #thumb{
+	display: inline-block;
+}
+
+#PCDetail .headline-title{
+	font-size: 16px;
+}
+
+#PCDetail .page{
+	width: 100%;
+	padding: 2px 5px;
+	margin-top: -4px;
+	vertical-align: middle;
+	background-color: #DDD;
+}
+
+#PCDetail .content{
+	font-size: 16px;
+}
+
+#PCDetail .content p{
+	margin-top: 10px;
+	line-height: 25px;
+	color: black;
+}
+
+#PCDetail .content-inner{
+	font-size: 14px;
+}
+
+#PCDetail .content-image{
+	width:100%;
+}
+
+#PCDetail .thumbnail{
+	display: inline-block;
+	width: 99.5%;
+	height: 500px;
+}
+
+#PCDetail #title .titleBottom{
+	font-size: 20px;
+	font-weight: bold;
+	color:#fff;
+	position: absolute;
+	left: 100px;
+	top: 480px;
+}
+
+#PCComment{
+	padding-top: 5px;
+}
+
+#PCComment h2{
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	color: #fff;
+	background: #808080;
+}
+
+#PCComment nav li:first-child{
+	margin-top: 2px;
+}
+
+#PCComment nav li{
+	width: 100%;
+	height: 100%;
+	padding: 2px 5px;
+	margin-top: 5px;
+	border-top: 1px solid #A9A9A9;
+	border-radius: 5px;
+	background: #808080;
+	list-style-type: none;
+}
+
+#PCComment nav li p:first-child{
+	height: 40px;
+	line-height: 40px;
+	padding: 5px 5px;
+}
+
+#PCComment nav li p img{
+	width: 35px;
+	border-radius: 35px;
+}
+
+#PCComment nav li p #author{
+	display: inline-block;
+	height: 40px;
+	font-size: 13px;
+	vertical-align: top;
+	font-weight: bold;
+	padding-left: 10px; 
+}
+
+#PCComment nav li p #favour{
+	float: right;
+	padding-right: 5px;
+	opacity: 0.6;
+}
+
+#PCComment nav li p #favour img{
+	display: inline-block;
+	width: 20px;
+	vertical-align: top;
+	margin-top: 7px;
+	margin-right: 2px;
+}
+
+#PCComment nav li #content{
+	margin-left: 45px;
+	margin-top: 10px;
+	margin-right: 15px;
+	font-size: 15px;
+	line-height: 22px;
+}
+
+#PCComment nav li #time{
+	font-size: 12px;
+	margin:20px 0 20px 45px;
+	opacity: 0.6;
+}
+
+#PCMenu{
+	width: 800px;
+	margin: 0 auto;
+}
+
+#PCMenu .ant-col-4{
+	font-size: 18px;
+	color: rgb(25,137,200);
+	padding-top: 10px;
+}
+
+
+

@@ -1,0 +1,474 @@
+html{
+	font-size: 30px;
+}
+
+#mobileheader{
+	width: 100%;
+	height: 45px;
+	background: #1E90FF;
+}
+
+#mobileheader header img{
+	display: inline-block;
+	height: 25px;
+	margin-top: -5px;
+	vertical-align: middle;
+}
+
+#mobileheader #bell{
+	display: inline-block;
+	height: 30px;
+	margin-left: 62%; 
+	margin-top: -5px;
+	vertical-align: middle;
+}
+
+#mobileheader #threepoints{
+	display: inline-block;
+	height: 18px;
+	margin-left: 10px;
+	margin-top: -5px;
+	vertical-align: middle;
+	opacity: 0.4;
+}
+
+#mobileheader header span{
+	font-size: 16px;
+	padding-left: 6px;
+	color: #fff;
+}
+
+#mobileheader .menuwhole{
+	width: 100%;
+	height: 712px;
+}
+
+#mobileheader .mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.8);
+	vertical-align: baseline;
+	overflow-y: scroll;
+	position: absolute;
+	top:0;
+	z-index: 6;
+}
+
+#mobileheader .menu{
+	width: 80%;
+	height: 100%;
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 10;
+	background: #fff;
+	overflow-y: scroll;
+}
+
+#mobileheader .menu .menuTop{
+	height: 90px;
+	background: #1E90FF;
+}
+
+#mobileheader .menu .menuTop p{
+	height: 45px;
+	line-height: 40px;
+}
+
+#mobileheader .menu .menuTop p #myImage{
+	width: 35px;
+	height: 50px;
+	margin-left: 5px;
+}
+
+#mobileheader .menu .menuTop p span{
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	vertical-align: top;
+	padding-top: 10px;
+	margin-left: 10px;
+}
+
+#mobileheader .menu .menuTop p a{
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	vertical-align: top;
+	padding-top: 8px;
+	margin-left: 10px;
+}
+
+#mobileheader .menu .menuMiddle{
+	height: 48px;
+	line-height: 48px;
+	border-bottom: 1px solid #DCDCDC;
+}
+
+#mobileheader .menu .menuMiddle span{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 7px;
+	padding-left: 10px;
+	color: #1E90FF;
+}
+
+#mobileheader .menu p img{
+	width: 35px;
+	padding-top: 10px;
+}
+
+#mobileheader .menu p span{
+	display: inline-block;
+	color: black;
+	font-size: 16px;
+    vertical-align: baseline;
+}
+
+#mobileheader .menu li{
+	display: block;
+	height: 48px;
+	border-bottom: 1px solid #DCDCDC;
+}
+
+#mobileheader .menu li a{
+	font-size: 16px;
+	padding-left: 2px;
+	color: black;
+}
+
+#mobileheader .menu li .menuImg{
+	display: inline-block;
+	width:24px;
+	float: right;
+	padding-top: 12px;
+	padding-right: 2px;
+	opacity: 0.6;
+}
+
+#mobileheader nav li span{
+	font-size: 16px;
+	padding-right: 10px;
+	float: right;
+}
+
+#mainContent #mainImage{
+	width: 99.7%;
+	height: 250px;
+}
+
+#mainContent p{
+	width: 90%;
+	font-size:16px; 
+	position: absolute;
+	left:4%;
+	top: 260px;
+	color: #fff;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#mainContent #editorImage{
+	width: 100%;
+	height: 50px;
+}
+#mainContent #editorImage span{
+	display: inline-block;
+	width: 40px;
+	height: 50px;
+	vertical-align: top;
+	padding-left: 10px;
+	padding-top: 15px;
+	opacity: 0.8;
+}
+
+#mainContent #editorImage nav{
+	display: inline-block;
+	width:85%;
+}
+
+#mainContent #editorImage img{
+	display: inline-block;
+	width: 30px;
+	margin-top: -5px;
+	border-radius: 30px;
+}
+
+#mainContent nav{
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+}
+
+#mainContent nav li{
+	width: 100%;
+	height: 100px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right:5px;
+	line-height: 80px;
+	font-size: 16px;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+}
+
+#mainContent nav li a{
+	display: inline-block;
+	width:70%;
+	color:#000;
+	font-weight: bold;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#mainContent nav li img{
+	display: inline-block;
+	width:20%;
+	float: right;
+	padding-right: 2px;
+	padding-top: 7px;
+}
+
+#Mobiledetail #mobileheader header img{
+	display: inline-block;
+	height: 30px;
+	margin-top: -5px;
+	vertical-align: middle;
+}
+
+#Mobiledetail #mobileheader header .comment{
+	display: inline-block;
+	margin-left: 1.8%;
+}
+
+#Mobiledetail #mobileheader header .comment span{
+	display: inline-block;
+	margin-left: -4px;
+}
+
+#Mobiledetail #mobileheader header img{
+	display: inline-block;
+	height: 30px;
+	margin-top: -7px;
+	vertical-align: middle;
+}
+
+#Mobiledetail #mobileheader header #share{
+	display: inline-block;
+	margin-left: 18%;
+}
+
+#Mobiledetail #mobileheader header #star{
+	display: inline-block;
+	height: 40px;
+	margin-left: 15px;
+}
+
+#Mobiledetail #mobileheader header #commentInf{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+#Mobiledetail #mobileheader header #thumb{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+#Mobiledetail .headline-title{
+	font-size: 16px;
+}
+
+#Mobiledetail .page{
+	width: 100%;
+	padding: 2px 5px;
+	margin-top: -4px;
+	vertical-align: middle;
+	background-color: #DDD;
+}
+
+#Mobiledetail .content{
+	font-size: 16px;
+}
+
+#Mobiledetail .content p{
+	margin-top: 10px;
+	line-height: 25px;
+	color: black;
+}
+
+#Mobiledetail .content-inner{
+	font-size: 14px;
+}
+
+#Mobiledetail .content-image{
+	width:100%;
+}
+
+#Mobiledetail .thumbnail{
+	width: 100%;
+	height: 250px;
+}
+
+#Mobiledetail #title .titleBottom{
+	font-size: 16px;
+	font-weight: bold;
+	color:#fff;
+	position: absolute;
+	left: 10px;
+	top: 240px;
+}
+
+#Mobilecomment #mobileheader .edit{
+	display: inline-block;
+	width: 30px;
+	margin-top: 12px;
+	float: right;
+	padding-right: 5px;
+}
+
+#Mobilecomment{
+	color: black;
+	font-family: "微软雅黑";
+}
+
+#Mobilecomment h2{
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	font-weight: normal;
+	opacity: 1;
+	border-top: 1px solid #DDD;
+}
+
+#Mobilecomment nav li{
+	width: 100%;
+	height: 100%;
+	padding: 2px 5px;
+	border-top: 1px solid #C0C0C0;
+	list-style-type: none;
+}
+
+#Mobilecomment nav li p:first-child{
+	height: 40px;
+	line-height: 40px;
+	padding: 5px 5px;
+}
+
+#Mobilecomment nav li p img{
+	width: 35px;
+	border-radius: 35px;
+}
+
+#Mobilecomment nav li p #author{
+	display: inline-block;
+	height: 40px;
+	font-size: 13px;
+	vertical-align: top;
+	font-weight: bold;
+	padding-left: 10px; 
+}
+
+#Mobilecomment nav li p #favour{
+	float: right;
+	padding-right: 5px;
+	opacity: 0.6;
+}
+
+#Mobilecomment nav li p #favour img{
+	display: inline-block;
+	width: 20px;
+	vertical-align: top;
+	margin-top: 7px;
+	margin-right: 2px;
+}
+
+#Mobilecomment nav li #content{
+	margin-left: 45px;
+	margin-top: 10px;
+	margin-right: 15px;
+	font-size: 15px;
+	line-height: 22px;
+}
+
+#Mobilecomment nav li #time{
+	font-size: 12px;
+	margin:20px 0 20px 45px;
+	opacity: 0.6;
+}
+
+#MobileFooter{
+	width: 99.6%;
+}
+
+#MobileFooter .ant-carousel .slick-slide {
+  text-align: center;
+  height: 200px;
+  line-height: 200px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+#MobileFooter .ant-carousel .slick-slide h3{
+	display: inline-block;
+	width: 100%;
+	padding-top: 70px;
+  	color: #fff;
+}
+
+#MobileFooter section .dailyNews{
+	margin-left: 15px;
+}
+
+#MobileFooter section .dailyNews h2{
+	font-size: 14px;
+	font-weight: normal;
+	margin: 8px 0;
+}
+
+#MobileFooter section .dailyNews nav li{
+	display: table;
+	width: 95%;
+	height: 120px;
+	margin: 15px 0px;
+	list-style-type: none;
+	border: 1px solid  #C0C0C0;
+	border-radius: 8px;
+	box-shadow: 0px 0px 8px #808080;
+}
+
+#MobileFooter section .dailyNews nav li a{
+	display: table-cell;
+	font-size: 16px;
+	width: 65%;
+	padding-left: 10px;
+	vertical-align: middle;
+	color: black;
+}
+
+#MobileFooter section .dailyNews nav li img{
+	display: table-cell;
+	width: 80px;
+	float: right;
+	padding-right: 3px;
+	padding-top: 20px;
+}
+
+#MobileFooter .example {
+	display: inline-block;
+	width: 95%;
+	height: 30px;
+	margin: 15px 0px;
+  	text-align: center;
+  	line-height: 45px;
+  	margin-top: -8px;
+}
+
+#MobileFooter .example span{
+	display: inline-block;
+	margin-left: 12px;
+	font-size: 14px;
+}
+
