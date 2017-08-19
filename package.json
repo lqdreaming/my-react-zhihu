@@ -42,7 +42,5 @@
   "devDependencies": {
     "http-proxy-middleware": "^0.17.4",
     "gh-pages": "^1.0.0",
-    "node-sass": "^4.5.3",
-    "sass-loader": "^6.0.6"
   }
 }
